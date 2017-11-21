@@ -1,0 +1,21 @@
+{
+  "src/components/*.vue": {
+    "type": "component",
+    "alternate": "src/components/__tests__/{}.test.js"
+  },
+  "src/components/__tests__/*.test.js": {
+    "type": "test",
+    "alternate": "src/components/{}.vue",
+    "template": [
+      "import Vue from 'vue'",
+      "import {open} shallow {close} from 'vue-test-utils'",
+      "import {} from '@/components/{}'",
+      "describe('{}', () => {",
+      "  const wrapper = shallow(App)",
+      "  it('renders correct contents', () => {",
+      "    expect(wrapper.html()).toMatchSnapshot()",
+      "  })",
+      "})"
+    ]
+  }
+}
