@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar renders correct contents 1`] = `
+<table>
+    <thead class="daynames">
+        <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="">
+                <div class="date">26</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="">
+                <div class="date">27</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="">
+                <div class="date">28</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="">
+                <div class="date">29</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="">
+                <div class="date">30</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">1</div>
+                <div>
+                    <img src="sample-image" width="16" height="16" class="pull-left"> sample-guy
+                    <br>
+                    <a href="http://google.com">awsome article</a>
+                    <!---->
+                    <!---->
+                    <!---->
+                </div>
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">2</div>
+                <div>
+                    <img src="sample-image" width="16" height="16" class="pull-left"> sample-guy
+                    <br>
+                    <!----><span>awsome article</span>
+                    <!---->
+                    <!---->
+                </div>
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="active">
+                <div class="date">3</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">4</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">5</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">6</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">7</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">8</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">9</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="active">
+                <div class="date">10</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">11</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">12</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">13</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">14</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">15</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">16</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="active">
+                <div class="date">17</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">18</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">19</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">20</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">21</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">22</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">23</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="active">
+                <div class="date">24</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="active">
+                <div class="date">25</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="">
+                <div class="date">26</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="">
+                <div class="date">27</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="">
+                <div class="date">28</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="">
+                <div class="date">29</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+            <td class="">
+                <div class="date">30</div>
+                <!---->
+                <!---->
+                <div class="form-group">
+                    <!---->
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+`;
