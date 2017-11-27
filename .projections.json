@@ -17,5 +17,18 @@
       "  })",
       "})"
     ]
+  },
+  "src/api/*.js": {
+    "type": "api",
+    "alternate": "src/api/__tests__/{}.test.js"
+  },
+  "src/api/__tests__/*.test.js": {
+    "type": "test",
+    "alternate": "src/api/{}.js",
+    "template": [
+      "import {} from '@/api/{}'",
+      "describe('{}', () => {",
+      "})"
+    ]
   }
 }
