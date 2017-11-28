@@ -2,7 +2,16 @@
 
 exports[`App renders correct contents 1`] = `
 <div id="app">
+    <a href="https://github.com/marocchino/vue-advent">
+        <img src="//camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="//s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"
+            style="position: absolute; top: 0px; right: 0px; border: 0px; z-index: 1;">
+    </a>
     <img src="../assets/logo.png">
+    <header>
+        <h1>Advent Calendar 2016</h1>
+        <button class="btn btn-default">login</button>
+        <!---->
+    </header>
     <router-view></router-view>
 </div>
 `;

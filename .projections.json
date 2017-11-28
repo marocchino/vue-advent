@@ -11,7 +11,7 @@
       "import {open} shallow {close} from 'vue-test-utils'",
       "import {} from '@/components/{}'",
       "describe('{}', () => {",
-      "  const wrapper = shallow(App)",
+      "  const wrapper = shallow({})",
       "  it('renders correct contents', () => {",
       "    expect(wrapper.html()).toMatchSnapshot()",
       "  })",
