@@ -4,11 +4,11 @@
     <img src="../assets/logo.png">
     <header>
       <h1>Advent Calendar 2016</h1>
-      <button class='btn btn-default' v-if='!newArticle.username' @click='login'>login</button>
-      <button class='btn btn-default' v-if='newArticle.username'
+      <button v-if='!newArticle.username' @click='login'>login</button>
+      <button v-if='newArticle.username'
         data-toggle="tooltip" data-placement="bottom" title="로그아웃" @click='logout'>
         <img :src='newArticle.profileImageURL' class="img-circle" width='20' height='20'>
-        {{newArticle.username}}
+        {{ newArticle.username }}
       </button>
     </header>
     <router-view/>
@@ -16,8 +16,13 @@
 </template>
 
 <script>
+import firebase from 'firebase'
+import api from '@/api'
+
 const username = localStorage.getItem("username")
 const profileImageURL = localStorage.getItem("profileImageURL")
+const provider = new firebase.auth.GithubAuthProvider();
+
 export default {
   name: 'app',
   data () {
@@ -39,23 +44,21 @@ export default {
       }
     },
     isValid() {
-      const validation = this.validation
-      return Object.keys(validation).every((key) => validation[key])
+      return Object.values(this.validation).every(value => value)
     },
   },
 
   methods: {
     login() {
-      const ref = new Firebase(baseURL)
-      ref.authWithOAuthPopup("github", (error, authData) => {
-        if (!error) {
-          localStorage.setItem("username", authData.github.username)
-          localStorage.setItem("profileImageURL", authData.github.profileImageURL)
-          this.loading = false
-          this.newArticle.username = authData.github.username
-          this.newArticle.profileImageURL = authData.github.profileImageURL
-        }
-      })
+      firebase.auth().signInWithPopup(provider).then(function(authData) {
+        localStorage.setItem("username", authData.github.username)
+        localStorage.setItem("profileImageURL", authData.github.profileImageURL)
+        this.loading = false
+        this.newArticle.username = authData.github.username
+        this.newArticle.profileImageURL = authData.github.profileImageURL
+      }).catch(function(error) {
+        console.log(error);
+      });
     },
     logout: function () {
       localStorage.setItem("username", "")

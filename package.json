@@ -17,7 +17,9 @@
     ]
   },
   "jest": {
-    "setupFiles": ["jest-localstorage-mock"],
+    "setupFiles": [
+      "jest-localstorage-mock"
+    ],
     "moduleFileExtensions": [
       "js",
       "vue"
@@ -44,8 +46,10 @@
     }
   },
   "dependencies": {
+    "firebase": "^4.6.2",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuefire": "^1.4.4"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
